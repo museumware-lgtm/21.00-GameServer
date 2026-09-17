@@ -23,7 +23,7 @@
 
 using namespace std;
 
-static string MMS_URL = "http://192.168.0.227:3551";
+static string MMS_URL = "http://127.0.0.1:3551";
 static string GameserverSession = "";
 
 static std::string SendRequest(const std::string& url, const std::string& method) {
